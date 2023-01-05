@@ -1,7 +1,13 @@
 body {
     margin: 0;
+    
 }
-
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -16,12 +22,12 @@ nav ul {
 ul li {
     list-style: none;
     margin-left: 50px;
-    font-family: 'open sans';
     font-weight: 700;
     font-size: 20px;
+    font-family: 'open sans';
 }
 
-
+/* navigation logo Mary */
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -37,11 +43,38 @@ ul li {
     border: 0;
     padding: 18px 35px;
     background-color: #FD6E0A;
-    font-family: 'Open sans';
 }
 /* bannar style */
 .header-bannar{
-    margin: 0 200px;
+    margin: 0 50px 0 200px;
     display: flex;
     align-items: center;
+    font-family: 'open sans';
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 60px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 40px;
+}
+.banner-status{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    top: 20px;
+}
+.banner-image{
+   
+}
+.contact{
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+    border:1px  solid  #FD6E0A ;
+    border-radius: 5px;
+    padding: 18px 35px;
+    margin-left: 35px;
 }
