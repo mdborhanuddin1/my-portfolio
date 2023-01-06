@@ -98,7 +98,8 @@ main{
 .section-status{
     text-align: center;
     font-size: 18px;
-    margin: 30px 0;    
+    margin: 30px 0;
+    line-height: 30px;  
 
 }
 .personal-info{
@@ -115,7 +116,7 @@ main{
     margin-top: 50px;
     background-color: #FFF8F3;
     border-radius: 5px;
-    padding: 30px 150px;
+    padding: 50px 200px;
     text-align: center;
 }
 .w-title{
@@ -126,13 +127,14 @@ main{
     font-size: 18px;
     margin: 30px 0;
     text-align: center;
+    line-height: 30px;
     
 }
 .skill-module{
     display: flex;
     margin-top: 50px;
     border-radius: 5px;
-    padding: 30px 150px;
+    padding: 50px 150px;
     justify-content: space-around;
     gap: 20px;
 }
