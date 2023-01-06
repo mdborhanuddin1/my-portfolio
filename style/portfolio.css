@@ -11,7 +11,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -182,6 +182,7 @@ footer{
     margin-top: 50px;
     justify-content: space-between;
     margin: 70px 176px;
+    font-family: 'open sans';
 }
 .left-footer{
     width: 500px;
@@ -197,11 +198,11 @@ footer{
     margin-left: 18px;
 }
 #email{
-    margin-left: 18px;
+    margin-left: 23px;
 }
 #message{
     vertical-align: top;
-    margin: 6px 36px;
+    margin: 6px 37px;
     
 }
 form .input-form{
@@ -220,14 +221,14 @@ form{
     border: 0;
     padding: 8px 26px;
     background-color: #FD6E0A;
-    margin-left: 95px;
+    margin-left: 103px;
 }
 .left-content{
     padding: 15px 0px;
 
 }
 .left-footer-status{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
 }
 .footer-icon{
